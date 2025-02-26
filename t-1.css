@@ -1,0 +1,102 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-color: #c3cede;
+    font-family: hankenttf;
+
+}
+
+.container {
+    background-image: linear-gradient(to bottom,#510081, #0000ba);
+    width: 320px;
+    height: 480px;
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+    position: relative;
+}
+
+.title {
+    color: white;
+    font-size: 25px;
+    margin-bottom: 15px;
+    opacity: 0.5;
+    
+}
+
+ .circle-button {
+    background-image: linear-gradient(to bottom, #47026f, #0101a5);
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    margin: 0 auto 15px;
+    color: white;
+    font-size: 18px;
+    margin-top: 50px;
+
+ }
+
+ .score {
+    font-size: 72px;
+    margin: 0;
+    font-weight: bold;
+ }
+
+ .of-100 {
+    font-size: 13px;
+    margin: 10px 0;
+    opacity: 0.3;
+ }
+
+ .status {
+    font-size: 32px;
+    font-weight: bold;
+    color: white;
+    position: absolute;
+    margin-left:115px;
+    margin-top: 30px;
+ }
+ 
+.description{
+    font-size: 18px;
+    opacity: 0.5;
+    color: white;
+  position: absolute;
+  margin-top: 80px;
+  margin-left: 40px;
+}
+
+.description1{
+    font-size: 18px;
+    opacity: 0.5;
+    color: white;
+    margin-top:100px;
+    position: absolute;
+    margin-left: 54px;
+}
+.description2{
+    font-size: 18px;
+    opacity: 0.5;
+    color: white;
+    position: absolute;
+    margin-top:120px;
+    margin-left: 120px;
+}
+@font-face{
+src: url("hankenttf");
+font-family:hankenttf;
+
+
+}
+*{
+    font-family: hankenttf;
+}
